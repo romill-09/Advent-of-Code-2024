@@ -1,26 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// bool left(int i, int j)
-// {
-
-// }
-
-// bool right(int i, int j)
-// {
-
-// }
-
-// bool up(int i, int j)
-// {
-
-// }
-
-// bool down(int i, int j)
-// {
-
-// }
-
 int countOccurrences(vector<string> &v, string word)
 {
    int dx[8] = {0, 0, -1, 1, -1, -1, 1, 1};
