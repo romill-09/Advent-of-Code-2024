@@ -71,9 +71,9 @@ vector<vi> input()
       v.push_back(s);
    }
 
-   regex r(R"((\d+):([\s\d]+))");~
+   regex r(R"((\d+):([\s\d]+))");
 
-   vector<vector<int>> nums;
+   vector<vi> nums;
 
    for (const auto &line : v)
    {
